@@ -2,6 +2,8 @@
 A repo to test concurrent row updates . This is basically to performance test on  what happens if we want to update different rows concurrently in postgres. 
 This will use python.
 
+Uses COPY command to do bulk insertion of million records in no time.
+
 # steps to install pgAdmin, postgres and create db in macOS
 
 1. install pgadmin4 from https://www.postgresql.org/ftp/pgadmin/pgadmin4/v6.2/macos/
